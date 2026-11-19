@@ -1,0 +1,155 @@
+<header class="header-59" id="page-header">
+<div class="header-holder">
+<div class="container">
+<div class="row">
+<div class="col-xs-6 col-sm-3">
+<!-- logo -->
+<div class="logo">
+<a href="index.html">
+<img alt="Logo" class="default-logo site-logo-img" src="assets/images/header-59-logo.png?v=1795076287"/>
+<div class="generated-logo text-logo" style="display:none;"></div>
+</a>
+</div>
+</div>
+<div class="col-xs-6 col-sm-9 static-block">
+<!-- nav -->
+<nav class="navbar navbar-default justify-end" id="nav">
+<div class="navbar-header">
+<button aria-expanded="false" class="navbar-toggle collapsed" data-target="#dynamic-header" data-toggle="collapse" type="button">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<div class="collapse navbar-collapse" id="dynamic-header"><ul class="nav navbar-nav navbar-right main-navigation text-uppercase font-lato"><li><a href="index.html">Home</a></li><li><a href="About_Us.html">About Us</a></li><li><a href="Services.html">Services</a></li><li><a href="Pricing.html">Pricing</a></li><li><a href="Contact_Us.html">Contact Us</a></li></ul></div>
+</nav>
+</div>
+</div>
+</div>
+</div>
+</header>
+<!-- Sticky scroll logic -->
+<script>
+
+	$(window).on('scroll', function () {
+
+		if ($(this).scrollTop() > 50) {
+
+			$('header.header-59').addClass('sticky-active');
+
+		} else {
+
+			$('header.header-59').removeClass('sticky-active');
+
+		}
+
+	});
+
+</script>
+<section class="section-wrapper header-59-section main-header-section">
+<div class="coaching-hero" style="background:url('assets/images/header-59-slider-1.jpg') center center/cover no-repeat;?v=1795076287">
+<div class="coaching-overlay"></div>
+<div class="container">
+<div class="row">
+<div class="col-md-7">
+<div class="coaching-content">
+<span class="coaching-tag">
+
+                            ★ Premier Travel Consultancy
+
+                        </span>
+<h1>
+
+                            Explore Worlds.<br/>
+
+                            Craft Your Journey.
+
+                        </h1>
+<p>
+
+                            Personalized itineraries crafted by seasoned agents, modern booking tools and trusted travel expertise.
+
+                        </p>
+<div class="hero-actions">
+<a class="btn-primary-custom" href="#">
+
+                                Book Now
+
+                            </a>
+</div>
+</div>
+</div>
+<div class="col-md-5">
+<div class="admission-card">
+<h3>Bookings Open 2026</h3>
+<p>
+
+                            Join our upcoming tours and experience India's premier travel specialists.
+
+                        </p>
+<ul>
+<li>✔ Daily Guided Tours</li>
+<li>✔ Weekly Tour Briefings</li>
+<li>✔ Travel Planning Aid</li>
+</ul>
+<a class="apply-btn" href="#">
+
+                            Reserve Your Spot →
+
+                        </a>
+</div>
+</div>
+</div>
+</div>
+<div class="floating-card card-2">
+<h4>🏆 Top Travel Ratings</h4>
+<p>Consistently Excellent Service</p>
+</div>
+</div>
+</section>
+<section class="header-breadcrumb-section" style="background: url('assets/images/header-59-breadcrumb-section-bg.jpg') center center / cover no-repeat;?v=1795076287">
+<div class="container text-center">
+<h1 class="header-breadcrumb-section-title"><span class="Page_name">Travel Services</span></h1>
+<p class="header-breadcrumb-section-breadcrumb">
+<a href="index.html">Home</a> &gt; <span class="Page_name">Travel Services</span>
+</p>
+</div>
+</section>
+<script>
+
+
+
+gsap.registerPlugin(ScrollTrigger);
+
+
+
+/* Initial Load Animation */
+
+const tl = gsap.timeline();
+
+
+
+tl.from(".hero-badge",{
+
+    opacity:0,
+
+    y:50,
+
+    duration:0.8
+
+})
+
+.from(".hero-title",{
+
+    opacity:0,
+
+    y:80,
+
+    duration:1,
+
+    ease:"power4.out"
+
+},"-=0.4")
+
+</script>
